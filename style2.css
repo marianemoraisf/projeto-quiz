@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.questions{
+    display: block;
+}
+body{
+    font-size: 15px;
+    font-family: 'Poppins', 'Times New Roman', Times, serif ;
+    scroll-behavior: smooth;
+    padding: 10px;
+}
+h1{
+    color: blue;
+}
+h2{
+    font-size: 15px;
+}
+#subtitulo{
+    font-style: italic;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+fieldset{
+    padding: 10px;
+}
+
+#iniciar{
+    font-weight: bold;
+    padding: 10px 30px;
+    color: blue;
+    background-color: transparent;
+    border: 2px solid blue;
+    transition: .5s ease;
+    transition-property: background-color, color;
+}
+#iniciar:hover{
+    background-color: blue;
+    color: white;
+}
+#email{
+    width: 300px;
+}
+.email{
+    color: red;
+    font-weight: bold;
+}
+#enviar{
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid green;
+    border-radius: 10px;
+    transition: .5s ease;
+    transition-property: background-color, color;
+    font-weight: bold;
+    font-size: 16px;
+}
+#enviar:hover{
+    background-color: green;
+    color: white;
+}
